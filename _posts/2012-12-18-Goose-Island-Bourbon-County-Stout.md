@@ -13,7 +13,7 @@ abv: 15%
 heat: hi
 ageit: Drink it fresh
 respect: false
-balink: http://beeradvocate.com/beer/profile/1146/10672
+balink: https://beeradvocate.com/beer/profile/1146/10672
 ---
 
 **Respect this beer** It has a lot of alcohol so take your time. I highly recommend, if you can, to age this beer. 5 years even. Seriously.
@@ -24,8 +24,8 @@ When the first Goose Island Brewpub opened its doors in 1988, domestic, mass-pro
 
 The key to building interest in craft beer, Hall decided, was to allow consumers to watch the brewing process – while providing them with the then-novel experience of enjoying a wide variety of distinctive beers that had been produced on-site. Hall wanted to not only cater to his customers’ tastes, but to challenge them as well. Goose Island’s brewers set to work crafting a diverse selection of unique beers – and on Friday, May 13, 1988 the Goose Island Brewpub was born.
 
-It turned out that John was right; Chicagoans palates evolved rapidly once Goose Island’s Brewpub opened its doors and introduced the city to distinctive craft beer. By 1995, the brewpub had become so popular that John Hall decided to open a larger brewery and bottling plant to keep up with demand. Finding still more room for growth, in 1999 Hall opened a second Goose Island Brewpub just a stone’s throw away from historic Wrigley Field. [(Source)](http://www.gooseisland.com/pages/company_history/110.php)
+It turned out that John was right; Chicagoans palates evolved rapidly once Goose Island’s Brewpub opened its doors and introduced the city to distinctive craft beer. By 1995, the brewpub had become so popular that John Hall decided to open a larger brewery and bottling plant to keep up with demand. Finding still more room for growth, in 1999 Hall opened a second Goose Island Brewpub just a stone’s throw away from historic Wrigley Field. [(Source)](https://www.gooseisland.com/pages/company_history/110.php)
 
 ### The Beer
 
-Brewed in honor of the 1000th batch at our original Clybourn brewpub. A liquid as dark and dense as a black hole with thick foam the color of a bourbon barrel. The nose is an intense mix of charred oak, chocolate, vanilla, caramel and smoke. One sip has more flavor than your average case of beer. [(Source)](http://www.gooseisland.com/pages/bourbon_county_stout/59.php)
+Brewed in honor of the 1000th batch at our original Clybourn brewpub. A liquid as dark and dense as a black hole with thick foam the color of a bourbon barrel. The nose is an intense mix of charred oak, chocolate, vanilla, caramel and smoke. One sip has more flavor than your average case of beer. [(Source)](https://www.gooseisland.com/pages/bourbon_county_stout/59.php)

@@ -1,6 +1,6 @@
 server_port: 4000
 baseurl:    /
-url: http://2012.beeradvent.com
+url: https://2012.beeradvent.com
 
 permalink:   /:title
 

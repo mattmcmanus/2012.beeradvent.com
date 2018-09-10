@@ -17,23 +17,21 @@
 
   <!-- <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}"> -->
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-  
+
   <!-- Facebook Stuff and things-->
   <meta property="fb:app_id" content="165198970242612">
   <meta property="og:site_name" content="Beer Advent">
   <meta property="og:description" content="Beer Advent is for beer lovers and novices alike. It's an opportunity for people to get together and share their experiences through the entire spectrum of beer styles. 24 different beers are purchased and distributed among everyone. Each person drinks the same beer on each day of advent and shares their experience.">
-  {% if page.layout == 'beer' %} 
+  {% if page.layout == 'beer' %}
     <meta property="og:title", content="{{ document.brewery + " "+ document.name}}">
-    <meta property="og:url", content="http://2011.beeradvent.com{{document.url}}">
-    <meta property="og:image", content= "http://2012.beeradvent.com/images/{{document.image}}">
+    <meta property="og:url", content="https://2012.beeradvent.com{{document.url}}">
+    <meta property="og:image", content= "https://2012.beeradvent.com/images/{{document.image}}">
   {% endif %}
 
   <link rel="stylesheet" href="/styles.css">
 
   <!-- Javascript -->
   <script src="/modernizr.foundation.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/kjk7ugv.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -43,12 +41,12 @@
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
 </script>
-  
+
 </head>
 <body>
   <div id="header" class="row">
@@ -64,7 +62,7 @@
   <div id="footer" class="row">
     {% include footer.html %}
   </div>
-  
+
   {% include footer-scripts.html %}
 
 </body>

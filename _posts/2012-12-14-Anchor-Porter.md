@@ -13,7 +13,7 @@ abv: 5.6%
 heat: low
 ageit: Drink it fresh
 respect: false
-balink: http://beeradvocate.com/beer/profile/28/61
+balink: https://beeradvocate.com/beer/profile/28/61
 ---
 
 ### The Brewery
@@ -26,4 +26,4 @@ With deep black color, a thick, creamy head, rich chocolate, toffee and coffee f
 
 A blend of specially roasted pale, caramel, chocolate, and black malts, along with our top-fermenting yeast, creates complexity without bitterness. The brew is hopped at a high rate, and naturally carbonated. The result is dark in the glass, but surprisingly light on the palate.
 
-Anchor Porter® became the first modern American porter when it was introduced in 1972. As we celebrate its 40th anniversary, our porter continues to reward those who look beyond its intimidating appearance to discover its smooth, full-bodied drinkability. Anchor Porter® is the definitive American Porter. [(Source)](http://www.anchorbrewing.com/beer/anchor_porter)
+Anchor Porter® became the first modern American porter when it was introduced in 1972. As we celebrate its 40th anniversary, our porter continues to reward those who look beyond its intimidating appearance to discover its smooth, full-bodied drinkability. Anchor Porter® is the definitive American Porter. [(Source)](https://www.anchorbrewing.com/beer/anchor_porter)

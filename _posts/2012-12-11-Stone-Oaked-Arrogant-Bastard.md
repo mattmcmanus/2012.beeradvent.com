@@ -13,7 +13,7 @@ abv: 7.2%
 heat: mid
 ageit: Drink it fresh
 respect: false
-balink: http://beeradvocate.com/beer/profile/147/8951
+balink: https://beeradvocate.com/beer/profile/147/8951
 ---
 
 

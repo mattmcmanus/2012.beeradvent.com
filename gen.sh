@@ -2,7 +2,7 @@
 
 no=1
 
-# y,1,Wit,Monastery of Christ in the Desert,Monks Wit,5.10%,$37.95,3,$113.85,Bella Vista,,http://beeradvocate.com/beer/profile/24136/70638
+# y,1,Wit,Monastery of Christ in the Desert,Monks Wit,5.10%,$37.95,3,$113.85,Bella Vista,,https://beeradvocate.com/beer/profile/24136/70638
 while IFS=, read y day style brewery beer abv price amount total dist notes ba
 do
 # Calculate the price
