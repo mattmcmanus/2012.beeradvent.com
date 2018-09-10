@@ -1,9 +1,17 @@
-server_port: 4000
+port: 4000
 baseurl:    /
-url: http://2012.beeradvent.com
+url: http://2013.beeradvent.com
 
-markdown:    rdiscount
-permalink:   :day/:title
+markdown:    maruku
+permalink:   /:title
 
 rdiscount:
   extensions: []
+
+prose:
+  metadata:
+    "_posts/beer": |
+      title:    "Title of your article"
+      brewery:  ""
+      ABV:  ""
+      advent-day:  ""
