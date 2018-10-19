@@ -1,9 +1,21 @@
 server_port: 4000
 baseurl:    /
-url: http://2012.beeradvent.com
+url: https://beeradvent.com
 
-markdown:    rdiscount
+markdown: kramdown
+kramdown:
+  input: GFM
+
 permalink:   :day/:title
 
-rdiscount:
-  extensions: []
+include:
+  - _redirects
+exclude:
+  - node_modules
+  - .sass-cache
+  - tailwind.js
+  - yarn.lock
+
+sass:
+  sass_dir: _scss
+  style: :compressed

@@ -1,0 +1,140 @@
+/**
+* This injects Tailwind's base styles, which is a combination of
+* Normalize.css and some additional base styles.
+*/
+@tailwind preflight;
+
+/**
+* This injects any component classes registered by plugins.
+*/
+@tailwind components;
+
+/**
+* Here you would add any of your custom component classes; stuff that you'd
+* want loaded *before* the utilities so that the utilities could still
+* override them.
+*/
+
+/**
+* This injects all of Tailwind's utility classes, generated based on your
+* config file.
+*
+* If using `postcss-import`, use this import instead:
+*
+* @import "tailwindcss/utilities";
+*/
+@tailwind utilities;
+
+/**
+* Here you would add any custom utilities you need that don't come out of the
+* box with Tailwind.
+*/
+
+@responsive {
+  .order-first {
+    order: -1;
+  }
+  .order-initial {
+    order: 0;
+  }
+  .order-last {
+    order: 1;
+  }
+}
+
+a {
+  @apply text-blue-light;
+}
+a:hover {
+  @apply no-underline;
+}
+
+p,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+.content {
+  @apply max-w-md mx-auto;
+}
+
+p,
+blockquote,
+ul,
+figure {
+  @apply mb-7;
+}
+
+ul {
+  @apply pl-6;
+}
+
+li {
+  @apply mb-3;
+  font-size: 0.95em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-serif leading-tight;
+}
+h1 {
+  @apply text-4xl mt-16 mb-3;
+}
+h2 {
+  @apply text-2xl mt-12 mb-2;
+}
+h3 {
+  @apply text-xl mt-8 mb-2;
+}
+h4 {
+  @apply text-lg mt-4 mb-2;
+}
+
+blockquote {
+  @apply italic pl-4 border-l-2 border-grey-lighter text-grey-darker;
+}
+cite {
+  @apply pl-2 text-blue-light text-sm;
+}
+cite:before {
+  content: "- ";
+}
+
+code {
+  @apply text-grey-darkest bg-grey-lighter px-2 rounded;
+}
+
+@screen md {
+  h1 {
+    @apply text-5xl mt-24 mb-6;
+  }
+  h1 ~ p {
+    @apply text-xl;
+  }
+  h2 {
+    @apply text-3xl mt-16 mb-3;
+  }
+  h3 {
+    @apply text-2xl mt-12 mb-3;
+  }
+  h4 {
+    @apply text-xl mt-10 mb-3;
+  }
+  blockquote,
+  ul,
+  cite {
+    @apply pl-8;
+  }
+  blockquote {
+    @apply text-xl;
+  }
+}
