@@ -118,10 +118,10 @@ code {
 }
 
 .logo {
-  @apply text-center text-6xl font-serif mb-12;
+  @apply text-center text-6xl font-serif;
 
   @screen md {
-    @apply text-8xl mb-16;
+    @apply text-8xl mx-0 mt-12;
   }
 
   line-height: 0.8;
