@@ -55,13 +55,13 @@ let colors = {
   "grey-lightest": "#f8fafc",
   white: "#ffffff",
 
-  "red-darkest": "#3b0d0c",
-  "red-darker": "#621b18",
-  "red-dark": "#cc1f1a",
-  red: "#e3342f",
-  "red-light": "#ef5753",
-  "red-lighter": "#f9acaa",
-  "red-lightest": "#fcebea",
+  "red-darkest": "#331111",
+  "red-darker": "#662222",
+  "red-dark": "#993333",
+  red: "#AA3939",
+  "red-light": "#C47474",
+  "red-lighter": "#DDB0B0",
+  "red-lightest": "#F7EBEB",
 
   "orange-darkest": "#462a16",
   "orange-darker": "#613b1f",
@@ -79,13 +79,13 @@ let colors = {
   "yellow-lighter": "#fff9c2",
   "yellow-lightest": "#fcfbeb",
 
-  "green-darkest": "#0f2f21",
-  "green-darker": "#1a4731",
-  "green-dark": "#1f9d55",
-  green: "#38c172",
-  "green-light": "#51d88a",
-  "green-lighter": "#a2f5bf",
-  "green-lightest": "#e3fcec",
+  "green-darkest": "#253010",
+  "green-darker": "#495F20",
+  "green-dark": "#6E8F30",
+  green: "#7A9F35",
+  "green-light": "#A2BC72",
+  "green-lighter": "#CAD9AE",
+  "green-lightest": "#F2F5EB",
 
   "teal-darkest": "#0d3331",
   "teal-darker": "#20504f",
@@ -129,6 +129,11 @@ let colors = {
 };
 
 module.exports = {
+  alpha: {
+    "25": 0.25,
+    "50": 0.5,
+    "75": 0.75
+  },
   /*
   |-----------------------------------------------------------------------------
   | Colors                                  https://tailwindcss.com/docs/colors
@@ -190,7 +195,7 @@ module.exports = {
 
   fonts: {
     sans: ["Source Sans Pro", "sans-serif"],
-    serif: ["Playfair Display", "serif"],
+    serif: ["Oleo Script Swash Caps", "serif"],
     mono: [
       "Menlo",
       "Monaco",
@@ -229,7 +234,10 @@ module.exports = {
     "2xl": "1.5rem", // 24px
     "3xl": "1.875rem", // 30px
     "4xl": "2.25rem", // 36px
-    "5xl": "3rem" // 48px
+    "5xl": "3rem", // 48px
+    "6xl": "4rem", // 48px
+    "7xl": "5rem", // 48px
+    "8xl": "6rem" // 48px
   },
 
   /*
@@ -876,7 +884,8 @@ module.exports = {
     require("tailwindcss/plugins/container")({
       // center: true,
       // padding: '1rem',
-    })
+    }),
+    require("tailwindcss-alpha")({})
   ],
 
   /*

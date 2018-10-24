@@ -42,12 +42,12 @@
   }
 }
 
-a {
+/* a {
   @apply text-blue-light;
-}
-a:hover {
+} */
+/* a:hover {
   @apply no-underline;
-}
+} */
 
 p,
 blockquote,
@@ -84,7 +84,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-serif leading-tight;
+  @apply leading-tight font-normal;
 }
 h1 {
   @apply text-4xl mt-16 mb-3;
@@ -111,6 +111,25 @@ cite:before {
 
 code {
   @apply text-grey-darkest bg-grey-lighter px-2 rounded;
+}
+
+.button {
+  @apply bg-green-dark text-white px-8 py-4 inline-block no-underline text-center rounded;
+}
+
+.logo {
+  @apply text-center text-6xl font-serif mb-12;
+
+  @screen md {
+    @apply text-8xl mb-16;
+  }
+
+  line-height: 0.8;
+  transform: rotate(-15deg);
+
+  span {
+    display: block;
+  }
 }
 
 @screen md {

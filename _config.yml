@@ -15,6 +15,7 @@ exclude:
   - .sass-cache
   - tailwind.js
   - yarn.lock
+  - src
 
 sass:
   sass_dir: _scss
